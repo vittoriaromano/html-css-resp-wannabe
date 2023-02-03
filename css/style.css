@@ -128,8 +128,17 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
-
+/* soluzione per desktop */
  @media screen and (min-width: 480px){
+    .container{
+        max-width: 100%;
+    }
+ }
+
+
+ /* soluzione per ipad */
+ 
+ @media screen and (min-width: 768px){
     .container{
         max-width: 100%;
     }
