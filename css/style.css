@@ -146,20 +146,20 @@ img {
 
   /* soluzione per mobile */
 
- @media screen and (max-width: 480){
-
+ @media screen and (max-width: 480px){
     .steps{
         max-width: 100%;
         
     }
     .col{
         width: 100%;
+        margin: 0 auto;
     }
     .container{
         max-width: 100%;
     }
 
     .row{
-        flex-wrap: wrap;
+        display: block;
     }
   } 
