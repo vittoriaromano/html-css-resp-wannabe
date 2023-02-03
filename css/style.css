@@ -127,7 +127,7 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
-
+ 
 /* soluzione per desktop */
  @media screen and (min-width: 480px){
     .container{
@@ -143,3 +143,23 @@ img {
         max-width: 100%;
     }
  }
+
+  /* soluzione per mobile */
+
+ @media screen and (max-width: 480){
+
+    .steps{
+        max-width: 100%;
+        
+    }
+    .col{
+        width: 100%;
+    }
+    .container{
+        max-width: 100%;
+    }
+
+    .row{
+        flex-wrap: wrap;
+    }
+  } 
